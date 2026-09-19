@@ -178,6 +178,7 @@ Three small experiments from the same era, kept for posterity:
 | [**ReWarMe**](https://github.com/hmmaros/re-war-me) | WAR redeploy on autopilot |
 | [**PutLegalHeaders**](https://github.com/hmmaros/put-legal-headers) | License-scanning CLI |
 | **PutLegalHeaders (GUI)** | The same idea, with a face |
+| [**BlueLogs**](https://github.com/hmmaros/blue-logs) | All your logs, one screen |
 
 ---
 
