@@ -1,5 +1,10 @@
 ![PutLegalHeaders](assets/header.svg)
 
+[![Build](https://github.com/hmmaros/put-legal-headers-with-ui/actions/workflows/build.yml/badge.svg)](https://github.com/hmmaros/put-legal-headers-with-ui/actions/workflows/build.yml)
+![Java 8](https://img.shields.io/badge/Java-8-orange?logo=openjdk&logoColor=white)
+![Swing](https://img.shields.io/badge/UI-Swing-5382A1)
+![Status](https://img.shields.io/badge/status-legacy%20%C2%B7%20circa%202018-lightgrey)
+
 > **LEGACY · CIRCA 2018** — Java 8 · Swing · Maven · Windows
 >
 > The GUI sibling of the [license-scanning CLI](https://github.com/hmmaros/put-legal-headers).
