@@ -3,27 +3,28 @@
 [![Build](https://github.com/hmmaros/put-legal-headers-with-ui/actions/workflows/build.yml/badge.svg)](https://github.com/hmmaros/put-legal-headers-with-ui/actions/workflows/build.yml)
 ![Java 8](https://img.shields.io/badge/Java-8-orange?logo=openjdk&logoColor=white)
 ![Swing](https://img.shields.io/badge/UI-Swing-5382A1)
-![Status](https://img.shields.io/badge/status-legacy%20%C2%B7%20circa%202018-lightgrey)
+![Status](https://img.shields.io/badge/status-legacy%20%C2%B7%202018-lightgrey)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
 
-> **LEGACY · CIRCA 2018** — Java 8 · Swing · Maven · Windows
+> **LEGACY · 2018** — Java 8 · Swing · Maven · Windows
 >
-> The GUI sibling of the [license-scanning CLI](https://github.com/hmmaros/put-legal-headers).
+> The GUI sibling of my [license-scanning CLI](https://github.com/hmmaros/put-legal-headers).
 > Because a 2018 rule needed a 2018 window.
 
 ---
 
 ## The Story
 
-The CLI version did its job so well that the next complaint arrived: *"How do
-I use this thing without opening a terminal?"* And so, because it was 2018 and
-that was how frogs progressed, `PutLegalHeaders` grew a face.
+The CLI version did its job so well that the next complaint arrived: *"How do I
+use this thing without opening a terminal?"* So — because it was 2018 and that
+was how things went — I gave `PutLegalHeaders` a face.
 
 A Swing window, a folder picker, two text fields, one dropdown, a Search
-button — and a second window that turned `System.out` into a living console.
-Type a marker text like *"All rights reserved."*, pick `WITHOUT`, and it lists
-every file still missing the license, ready to stamp with one click.
+button — and a second window that turned `System.out` into a live console. Type
+a marker text like *"All rights reserved."*, pick `WITHOUT`, and it lists every
+file still missing the license, ready to stamp with one click.
 
-Hundreds of files. One button. The auditor smiled. The UI did its job, and it
+Hundreds of files, one button. The auditor smiled. The UI did its job, and it
 never claimed to be pretty.
 
 ---
@@ -183,7 +184,11 @@ Three small experiments from the same era, kept for posterity:
 ## Disclaimer
 
 This tool **deletes and rewrites file contents** to insert headers. Only point
-it at files you intend to modify, and test on a copy first. The author is not
-responsible for data loss caused by running it.
+it at files you intend to modify, and test on a copy first. I'm not responsible
+for data loss caused by running it.
 
-*No explicit license — ask the author (`DC`) before reusing the code.*
+---
+
+## License
+
+Released under the [MIT License](LICENSE) © 2018 hmmaros.

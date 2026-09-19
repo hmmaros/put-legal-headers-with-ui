@@ -1,47 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 480" role="img" aria-label="PutLegalHeaders GUI hero banner">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1524"/>
-      <stop offset="0.55" stop-color="#10233d"/>
-      <stop offset="1" stop-color="#0e1d36"/>
+      <stop offset="0" stop-color="#04160e"/>
+      <stop offset="0.55" stop-color="#07291b"/>
+      <stop offset="1" stop-color="#063a25"/>
     </linearGradient>
     <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#0284c7"/>
+      <stop offset="0" stop-color="#6ee7b7"/>
+      <stop offset="1" stop-color="#10b981"/>
     </linearGradient>
     <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38bdf8" stroke-opacity="0.05"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#34d399" stroke-opacity="0.05"/>
     </pattern>
   </defs>
 
   <rect width="1280" height="480" fill="url(#bg)"/>
   <rect width="1280" height="480" fill="url(#grid)"/>
+  <circle cx="640" cy="166" r="165" fill="url(#glow)"/>
 
-  <circle cx="640" cy="172" r="165" fill="url(#glow)"/>
-
-  <!-- window-then-stamp icon -->
-  <g transform="translate(640,175)">
-    <rect x="-72" y="-66" width="144" height="112" rx="14" fill="#0f2544" stroke="#38bdf8" stroke-width="4"/>
-    <rect x="-72" y="-66" width="144" height="30" rx="14" fill="url(#win)"/>
-    <circle cx="-52" cy="-51" r="6" fill="#0b1524"/>
-    <circle cx="-34" cy="-51" r="6" fill="#0b1524"/>
-    <rect x="-50" y="-20" width="92" height="12" rx="6" fill="#7dd3fc" opacity="0.7"/>
-    <rect x="-50" y="2" width="62" height="12" rx="6" fill="#7dd3fc" opacity="0.5"/>
-    <rect x="-50" y="24" width="46" height="12" rx="6" fill="#7dd3fc" opacity="0.35"/>
-    <circle cx="48" cy="38" r="20" fill="#0284c7"/>
-    <text x="48" y="46" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#e0f2fe">C</text>
+  <!-- icon: app window + stamp badge -->
+  <g transform="translate(640,168)">
+    <rect x="-72" y="-66" width="144" height="112" rx="16" fill="#052e16" stroke="#34d399" stroke-width="4"/>
+    <rect x="-72" y="-66" width="144" height="30" rx="16" fill="url(#win)"/>
+    <circle cx="-52" cy="-51" r="6" fill="#052e16"/>
+    <circle cx="-34" cy="-51" r="6" fill="#052e16"/>
+    <rect x="-50" y="-20" width="92" height="12" rx="6" fill="#a7f3d0" opacity="0.75"/>
+    <rect x="-50" y="2" width="62" height="12" rx="6" fill="#a7f3d0" opacity="0.55"/>
+    <rect x="-50" y="24" width="46" height="12" rx="6" fill="#a7f3d0" opacity="0.4"/>
+    <circle cx="48" cy="38" r="20" fill="#10b981"/>
+    <text x="48" y="46" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#052e16">C</text>
   </g>
 
-  <text x="640" y="330" text-anchor="middle" font-family="sans-serif" font-size="88" font-weight="bold" fill="#38bdf8" letter-spacing="2">PutLegalHeaders</text>
-  <text x="640" y="380" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#e0f2fe">A legal-header GUI? Yes. It was 2018.</text>
+  <text x="640" y="322" text-anchor="middle" font-family="sans-serif" font-size="82" font-weight="bold" fill="#6ee7b7" letter-spacing="2">PutLegalHeaders</text>
+  <text x="640" y="372" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#d1fae5">A legal-header GUI? Yes. It was 2018.</text>
 
   <g transform="translate(44,420)">
-    <rect width="252" height="34" rx="17" fill="#08263f" stroke="#38bdf8" stroke-width="1.5"/>
-    <text x="126" y="22" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="1" fill="#bae6fd">LEGACY · CIRCA 2018</text>
+    <rect width="252" height="34" rx="17" fill="#052e16" stroke="#34d399" stroke-width="1.5"/>
+    <text x="126" y="22" text-anchor="middle" font-family="monospace" font-size="15" letter-spacing="1" fill="#a7f3d0">LEGACY · 2018</text>
   </g>
-  <text x="1236" y="442" text-anchor="end" font-family="monospace" font-size="15" fill="#3f6f94">Swing · Maven · cmd.exe</text>
+  <text x="1236" y="442" text-anchor="end" font-family="monospace" font-size="20" font-weight="bold" fill="#34d399">hmmaros</text>
 </svg>

@@ -5,8 +5,8 @@
       <stop offset="1" stop-color="#0b0e17"/>
     </linearGradient>
     <linearGradient id="titlebar" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1f2937"/>
-      <stop offset="1" stop-color="#111827"/>
+      <stop offset="0" stop-color="#065f46"/>
+      <stop offset="1" stop-color="#022c22"/>
     </linearGradient>
     <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fafafa"/>
@@ -22,7 +22,7 @@
   <!-- title bar -->
   <rect x="52" y="96" width="440" height="34" rx="10" fill="url(#titlebar)"/>
   <rect x="52" y="120" width="440" height="10" fill="url(#titlebar)"/>
-  <circle cx="76" cy="113" r="5" fill="#38bdf8"/>
+  <circle cx="76" cy="113" r="5" fill="#34d399"/>
   <text x="272" y="118" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#e5e7eb">PutLegalHeaders</text>
 
   <!-- form rows -->
@@ -58,7 +58,7 @@
   <rect x="508" y="96" width="400" height="340" rx="10" fill="#0d1117" stroke="#30363d"/>
   <rect x="508" y="96" width="400" height="34" rx="10" fill="url(#titlebar)"/>
   <rect x="508" y="120" width="400" height="10" fill="url(#titlebar)"/>
-  <circle cx="532" cy="113" r="5" fill="#38bdf8"/>
+  <circle cx="532" cy="113" r="5" fill="#34d399"/>
   <text x="708" y="118" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#e5e7eb">Resulting files</text>
 
   <rect x="526" y="146" width="104" height="26" rx="4" fill="url(#btn)" stroke="#9ca3af"/>
